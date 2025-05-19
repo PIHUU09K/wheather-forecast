@@ -30,13 +30,7 @@ The interface features a soft and colorful theme with modern fonts, a baby pink 
 - JavaScript (Vanilla)
 - Weather API from [WeatherAPI.com](https://www.weatherapi.com/)
 
----
-
-## 📸 Screenshots
-
-> *(Add your app screenshot or GIF here)*
-
----
+--
 
 ## 💡 Getting Started
 
