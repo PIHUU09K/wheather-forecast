@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Great Vibes', cursive;
+  background-color: #add8e6; /* Light blue */
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.weather-box {
+  background-color: #ffc0cbcc; /* Baby pink */
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border: 5px solid #000;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  color: #6a1b9a;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+select,
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #2196f3;
+  min-width: 200px;
+}
+
+#searchBtn,
+#locateBtn {
+  padding: 10px 20px;
+  border: 2px solid #2196f3;
+  background: transparent;
+  color: #0d47a1;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+#searchBtn:hover,
+#locateBtn:hover {
+  background-color: #2196f3;
+  color: white;
+}
+
+.info-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #e91e63;
+  margin-bottom: 1rem;
+}
+
+.forecast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.forecast-card {
+  background-color: #f8bbd0;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-card img {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #6a1b9a;
+  font-family: 'Great Vibes', cursive;
+}
