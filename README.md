@@ -29,6 +29,7 @@ The interface features a soft and colorful theme with modern fonts, a baby pink 
 - CSS3
 - JavaScript (Vanilla)
 - Weather API from [WeatherAPI.com](https://www.weatherapi.com/)
+- 
 
 --
 
