@@ -29,6 +29,10 @@ The interface features a soft and colorful theme with modern fonts, a baby pink 
 - CSS3
 - JavaScript (Vanilla)
 - Weather API from [WeatherAPI.com](https://www.weatherapi.com/)
+-const WEATHER_API_KEY= "your_secret_api_key_here"
+-  example: const apiKey = "7a34c6fgew87bf9wbff3";
+
+- const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&days=1&aqi=yes&alerts=no`;
 - 
 
 --
